@@ -19,3 +19,5 @@ a = array[1]
   array[2] = a
   array
 end 
+
+def reverse_array(array)
