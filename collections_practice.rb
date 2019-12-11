@@ -32,3 +32,12 @@ end
 def find_a
   array.select { |string| string[0] == "a"}
 end 
+
+def sum_array(array)
+  array.sum
+end
+
+def add_s(array) 
+
+  array.collect { |string| string +"s"  }
+end
