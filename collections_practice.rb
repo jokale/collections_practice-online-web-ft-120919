@@ -28,3 +28,6 @@ def kesha_maker
    a = "$"
   array.each_with_index {|string, index| string[2]=a}
 end 
+
+def find_a
+end 
