@@ -30,4 +30,5 @@ def kesha_maker
 end 
 
 def find_a
+  array.select { |string| string[0] == "a"}
 end 
